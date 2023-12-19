@@ -1,0 +1,41 @@
+.main{
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25%;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 30px;
+
+}
+.detail{
+  margin-bottom: 25px;
+  font-size: 13px;
+  color: #7e7e7e;
+  line-height: 20px;
+
+
+}
+.features{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 12px;
+  color: #7e7e7e;
+
+}
+.feature-div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
