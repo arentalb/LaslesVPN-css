@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.section-1, .section-2, .section-3 {
+  display: flex;
+  padding: 16px 0;
+  justify-content: center;
+  flex-basis: 33.33%;
+  gap: 30px;
+}
+
+.section-2 {
+  border-left: 2px solid #b2b2b2;
+  border-right: 2px solid #b2b2b2;
+
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 56, 56, 0.2);
+  padding: 10px;
+  border-radius: 50%; /* Make the div circular */
+
+
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+}
+
+.numbers {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.description {
+  color: #7e7e7e;
+}

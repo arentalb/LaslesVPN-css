@@ -1,6 +1,7 @@
 .main{
 display: flex;
   margin-top: 50px;
+  margin-bottom: 60px;
 }
 .content{
   padding: 30px 50px 30px  0 ;
