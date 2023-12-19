@@ -1,0 +1,48 @@
+.main{
+display: flex;
+  margin-top: 50px;
+}
+.content{
+  padding: 30px 50px 30px  0 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1{
+  color: #0B132A;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 140% */
+}
+h1 span{
+  font-weight: bold;
+}
+h3{
+  color: #4F5665;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+
+}
+h3 span{
+  color: #0a0a0a;
+  font-weight: bold;
+
+
+}
+.get-started{
+  width: 230px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #F53838;
+  font-weight: bold ;
+  color: white;
+  box-shadow: 0 25px 30px  rgba(  245 ,56 ,56, 0.2);
+}
+.image{
+
+}
