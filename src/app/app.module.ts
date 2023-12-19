@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { DataComponent } from './data/data.component';
 import { FeaturesComponent } from './features/features.component';
 import { PlanComponent } from './plan/plan.component';
+import { NetworkComponent } from './network/network.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PlanComponent } from './plan/plan.component';
     MainComponent,
     DataComponent,
     FeaturesComponent,
-    PlanComponent
+    PlanComponent,
+    NetworkComponent
   ],
   imports: [
     BrowserModule,
