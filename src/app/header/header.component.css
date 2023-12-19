@@ -1,0 +1,58 @@
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.brand-name {
+  font-weight: bold;
+}
+
+.vpn {
+  font-weight: bold;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  font-size: 14px;
+
+}
+
+.menu-item {
+
+}
+
+.menu-item a {
+  color: #6e6e6e;
+
+}
+
+.user {
+  display: flex;
+  gap: 30px;
+}
+
+.sign-in {
+  font-weight: bolder;
+}
+
+.sign-up {
+  border-radius: 50px;
+  border: 2px solid #F53855;
+  color: #F53855;
+  font-weight: bold;
+  width: 150px;
+  height: 45px;
+}
