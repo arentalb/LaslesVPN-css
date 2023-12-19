@@ -9,6 +9,7 @@ import { DataComponent } from './data/data.component';
 import { FeaturesComponent } from './features/features.component';
 import { PlanComponent } from './plan/plan.component';
 import { NetworkComponent } from './network/network.component';
+import { CustmerComponent } from './custmer/custmer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NetworkComponent } from './network/network.component';
     DataComponent,
     FeaturesComponent,
     PlanComponent,
-    NetworkComponent
+    NetworkComponent,
+    CustmerComponent
   ],
   imports: [
     BrowserModule,
