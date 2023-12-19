@@ -10,6 +10,7 @@ import { FeaturesComponent } from './features/features.component';
 import { PlanComponent } from './plan/plan.component';
 import { NetworkComponent } from './network/network.component';
 import { CustmerComponent } from './custmer/custmer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CustmerComponent } from './custmer/custmer.component';
     FeaturesComponent,
     PlanComponent,
     NetworkComponent,
-    CustmerComponent
+    CustmerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
